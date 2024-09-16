@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5vw;
+    background: linear-gradient(135deg, #4d80e5, #2ec6ce);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.todoapp{
+    width: 100%;
+    max-width: 600px;
+    background-color: aliceblue;
+    padding: 40px 40px 40px;
+    margin: 100px auto 30px;
+    border-radius: 16px;
+
+}
