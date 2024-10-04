@@ -78,3 +78,20 @@ ul li.checked{
 ul li.checked::before{
     background-image: url('../ToDoList/images/check_icon.png');
 }
+ul li span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #848484;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    line-height: 30px;
+    text-align: center;
+}
+ul li span:hover{
+    background-color: rgb(86, 155, 208);
+    color: azure;
+
+}
