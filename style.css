@@ -51,5 +51,30 @@ button {
     border-radius: 40px;
     font-size: 14px;
     cursor: pointer;
-    
+}
+ul li {
+    list-style: none;
+    font-size: 15px;
+    padding: 14px 8px 14px 50px;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url('../ToDoList/images/uncheck_icon.png');
+    background-size: cover;
+    background-position: center;
+    left: 10px;
+    bottom: 8px;
+}
+ul li.checked{
+    color: #848484;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url('../ToDoList/images/check_icon.png');
 }
