@@ -28,6 +28,14 @@ function addTask() {
   saveData();
 }
 
+// Listen for the Enter key press in the input field
+inputBox.addEventListener("keypress", function (event) {
+  // Check if the Enter key (keyCode 13) was pressed
+  if (event.key === "Enter") {
+    addTask(); // Trigger the addTask function when Enter is pressed
+  }
+});
+
 // Add an event listener to the list wrapper (parent element of all tasks)
 listWrap.addEventListener(
   "click",
