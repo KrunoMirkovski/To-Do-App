@@ -7,7 +7,7 @@ body{
     width: 100%;
     min-height: 100vh;
     padding: 5vw;
-    background: linear-gradient(135deg, #4d80e5, #2ec6ce);
+    background: linear-gradient(135deg, #346de0, #2ec6ce);
 }
 .container{
     width: 80%;
@@ -20,5 +20,36 @@ body{
     padding: 40px 40px 40px;
     margin: 100px auto 30px;
     border-radius: 16px;
-
+}
+.todoapp h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    border-radius: 20px;
+    background-color: rgb(185, 247, 247);
+}
+input {
+    flex: auto;
+    border: none;
+    outline: none;
+    font-weight:500;
+    background-color: transparent;
+    padding: 10px;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 12px 50px;
+    background-color: rgb(86, 155, 208);
+    color:azure;
+    border-radius: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    
 }
